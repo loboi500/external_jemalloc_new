@@ -1,12 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-install_suffix=@install_suffix@
-
-Name: jemalloc
-Description: A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support.
-URL: http://jemalloc.net/
-Version: @jemalloc_version_major@.@jemalloc_version_minor@.@jemalloc_version_bugfix@_@jemalloc_version_nrev@
-Cflags: -I${includedir}
-Libs: -L${libdir} -ljemalloc${install_suffix}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e094d7fcf009db0de8abf77221e2361d47eb616a09c51a9479b2786d15e2483
+size 465

@@ -1,17 +1,3 @@
-#!/bin/sh
-
-for i in autoconf; do
-    echo "$i"
-    $i
-    if [ $? -ne 0 ]; then
-	echo "Error $? in $i"
-	exit 1
-    fi
-done
-
-echo "./configure --enable-autogen $@"
-./configure --enable-autogen $@
-if [ $? -ne 0 ]; then
-    echo "Error $? in ./configure"
-    exit 1
-fi
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc0edab444b3a09dd23b9d822602403af467696701c644ce4db7797439509095
+size 266
